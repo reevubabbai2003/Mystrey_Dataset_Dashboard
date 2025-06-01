@@ -7,11 +7,9 @@ from nltk.tokenize import word_tokenize
 from collections import Counter
 import re
 
-# Download ALL required NLTK resources
-nltk.download('punkt', quiet=True)
-nltk.download('stopwords', quiet=True)
-nltk.download('punkt_tab', quiet=True)  # Add this line
-nltk.download('popular', quiet=True)    # Download additional resources
+# Download NLTK resources
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # Set default color scheme for all plots
 px.defaults.color_discrete_sequence = px.colors.qualitative.Plotly
@@ -294,4 +292,4 @@ fig_country = px.bar(
 st.plotly_chart(fig_country)
 
 st.header("Filtered Data Table")
-st.dataframe(df_filtered)
+st.dataframe(df_filtered)   
