@@ -1,0 +1,10 @@
+numpy
+pandas
+ipykernel
+matplotlib
+seaborn
+phonenumbers
+plotly
+streamlit
+nltk
+scikit-learn
