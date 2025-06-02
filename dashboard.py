@@ -10,6 +10,7 @@ import re
 # Download NLTK resources
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.dowload('punkt_tabs')
 
 # Set default color scheme for all plots
 px.defaults.color_discrete_sequence = px.colors.qualitative.Plotly
